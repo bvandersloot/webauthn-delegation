@@ -52,9 +52,9 @@ If the client wishes to do neither, the client should not process this extension
 enum DelegationIdentifier { "create", "use" };
 
 dictionary DelegationCreationOptions {
-	PublicKeyCredentialUserEntity user;
-	unsigned long long? expiration = null;	
-	unsigned long? uses = 1;
+    PublicKeyCredentialUserEntity user;
+    unsigned long long? expiration = null;	
+    unsigned long? uses = 1;
     sequence<PublicKeyCredentialDescriptor>? allowCredentials = [];
 }
 
@@ -75,7 +75,7 @@ dictionary DelegationExtensionOutputs {
 }
 
 partial dictionary AuthenticationExtensionsClientOutputs {
-  DelegationExtensionOutputs delegation;
+    DelegationExtensionOutputs delegation;
 };
 ```
 
