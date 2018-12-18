@@ -27,7 +27,7 @@ If the client wishes to produce a delegatable credential, perform the following 
 1. Let `delegation` be a `DelegationExtensionOutputs` with `action = "create"`
 2. Let `delegation.use = null`
 3. Let `delegation.create` be a non-null  `DelegationCreationOptions`.
-   1. Let `delegation.create.options.user` be the `PublicKeyCredentialUserEntity` from the Relying Party's `PublicKeyCredentialCreationOptions
+   1. Let `delegation.create.options.user` be the `PublicKeyCredentialUserEntity` from the Relying Party's `PublicKeyCredentialCreationOptions`
    2. Let `delegation.create.options.expiration` reflect how long to allow the credential to work. A null value signifies no expiration policy.
    3. Let `delegation.create.options.uses` reflect how many times the credential should work. A null value signifies no limit in uses.
    4. Let `delegation.create.options.allowCredentials` reflect any pubkeys that are allowed. If null, then all credentials are allowed.
