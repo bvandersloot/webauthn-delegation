@@ -4,11 +4,11 @@ This extension allows one Client to create a token that can be used by a third-p
 
 #### Extension identifier
 
-​	delegation
+	delegation
 
 #### Operation applicability
 
-​	Registration
+	Registration
 
 #### Client extension input
 
