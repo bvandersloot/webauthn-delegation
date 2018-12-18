@@ -105,6 +105,9 @@ If `delegation.action = "use"`:
    6. Return success.
 3. Return an error.
 
+If this extension is processed successfully and the registration flow succeeds, then the Relying Party should associate the public key used for registration with the user handle that generated the `challenge`.
+
+
 #### Authenticator extension input
 
 None.
